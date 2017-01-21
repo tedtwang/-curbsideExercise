@@ -1,4 +1,4 @@
 Assuming you have maven installed, and are using a unix/mac OS machine, run this command to execute the test:
 mvn test -Dtest=curbsideJobs
 
-NOTE: As of right now, the test purposefully fails, because I test for the State/Country to be labeled the same. Currently on shopcurbside.com/jobs, Quebec City has QC as the country, and on smartrecruiters it is Canada. I verify this in the test, hence the failure.
+NOTE: As of right now, the test purposefully fails, because I test for the State/Country to be labeled the same. Currently on shopcurbside.com/jobs Quebec City has QC as the country and on smartrecruiters it is Canada, hence the failure.
